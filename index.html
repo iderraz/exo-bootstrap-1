@@ -34,7 +34,7 @@
 
 
 
-    <section id="section-2" class="container bg-secondary mt-5" >
+    <section id="section-2" class="container bg-light mb-3" >
         <div class="d-flex justify-content-between">
             <div class="d-flex justify-content-between mt-5">
                 <img class="images" src="./public/img/team-1.png" alt="">
@@ -72,21 +72,24 @@
 
 
 
-    <footer class="bg-info d-flex justify-content-around">
+    <footer class="bg-info d-flex justify-content-around d-flex align-items-center">
         <div>
-            <h1>Information sur la coding school</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <h1 class="text-light text-center">Information sur la coding school</h1>
+            <p class="text-light">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
         </div>
 
-        <div><i class="fab fa-facebook-square"></i></div>
+        <div>
+          <i id="icone" class="fab fa-facebook-square"></i>
+          <i class="fas fa-envelope-open"></i>
+        </div>
 
-        <form >
-          <label for="inputPassword2" class="visually-hidden ">News letter</label>
+        <form class="d-flex justify-content-between">
+          <label for="inputPassword2" class="visually-hidden text-light ">News letter</label>
           <div class="col-auto">
-            <input type="password" class="form-control" id="inputPassword2" placeholder="">
+            <input type="text" class="form-control text-dark" id="inputPassword2" placeholder="">
           </div>
           <div class="col-auto">
-            <button type="submit" class="btn btn-primary mb-3">Subscribe</button>
+            <button type="submit" class="btn btn-primary mb-3 text-light bg-dark">Subscribe</button>
           </div>
         </form>
         
